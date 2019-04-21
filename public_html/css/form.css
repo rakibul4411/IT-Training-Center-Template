@@ -1,0 +1,39 @@
+			label{
+				padding-left: 15%;
+				font-weight: bold;
+			}
+			
+			.input{
+				width: 70%;
+				height: 35px;
+				margin-left: 15%;
+			}
+			.textarea{
+				width: 70%;
+				height: 35px;
+				margin-left: 15%;
+			}
+			
+			fieldset{
+				width: 64%;
+				height: 25px;
+				margin-left: 15%;
+			}
+			
+			
+			input:hover{
+				background: #f1f1f1;
+				border-radius: 5px;
+			}
+			textarea:hover{
+				background: #f1f1f1;
+				border-radius: 5px;
+			}
+			fieldset:hover{
+				background: #f1f1f1;
+				border-radius: 5px;
+			}
+			
+		.my_form span{
+				color: red;
+			}

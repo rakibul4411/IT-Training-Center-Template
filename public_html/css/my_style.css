@@ -1,0 +1,457 @@
+body{
+    background: greenyellow; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#deddd2, #cbc4b3, #b5af96) no-repeat ; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#deddd2, #cbc4b3, #b5af96)no-repeat;  /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#deddd2, #cbc4b3, #b5af96) no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#deddd2, #cbc4b3, #b5af96) no-repeat; /* Standard syntax */
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px #715b3d;
+    position: relative;
+}
+.header{
+    height: auto;
+    background: #deddd2;
+}
+.left_head{
+    height: auto;
+    background: #8c7455; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#deddd2, #cbc4b3, #b5af96, #aaa187, #8b7455, #8c7455, #715b3d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#deddd2, #cbc4b3, #b5af96, #aaa187, #8b7455, #8c7455, #715b3d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#deddd2, #cbc4b3, #b5af96, #aaa187, #8b7455, #8c7455, #715b3d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#deddd2, #cbc4b3, #b5af96, #aaa187, #8b7455, #8c7455, #715b3d); /* Standard syntax */
+    border-radius: 0px 46px 0px 0px;
+    box-shadow: 10px 0px #715b3d;
+}
+.left_head .head_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+/*    background-color: #333;*/
+}
+.left_head .head_menu ul li{
+    float: left;
+}
+.left_head .head_menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+.left_head .head_menu ul li a:hover{
+    background: #715b3d;
+    color: gray;
+}
+.name{
+    width: 100%;
+    padding-left: 0px;
+    overflow: auto;
+    background: #8c7455; /* For browsers that do not support gradients */
+/*  background: -webkit-linear-gradient( #b5af96, #aaa187, #8b7455, #8c7455);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient( #b5af96, #aaa187, #8b7455, #8c7455);  For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient( #b5af96, #aaa187, #8b7455, #8c7455);  For Firefox 3.6 to 15 
+    background: linear-gradient( #b5af96, #aaa187, #8b7455, #8c7455); Standard syntax*/
+     border-radius: 0px 10px 0px 0px;                                                                  
+/*    box-shadow: 10px 0px #715b3d;*/
+}
+.name img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 10px 0px 0px;
+}
+.cotation{
+    padding-left: 350px;
+}
+.right_head{
+    height: auto;
+}
+.right_head p{
+    
+}
+.right_head .phone_number{
+    font-size: 18px;
+}
+.right_head .my_news hr{
+    margin-top: 19px !important;
+}
+.right_head .my_news{
+    margin: 0;
+    padding: 0px;
+}
+.right_head .my_news h4{
+    margin-bottom: 0px !important;
+}
+.marquee{
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    font-weight: bold;
+    color: black;
+    animation: scroll 10s infinite linear;
+    -webkit-animation: scroll 10s infinite linear;
+    -moz-animation: scroll 10s infinite linear;
+}
+@-webkit-keyframes scroll{
+    0%{
+        -webkit-transform: translate(0,0);
+        
+    }
+    100%{
+          -webkit-transform: translate(-100%,0);
+         
+    }
+}
+@-moz-keyframes scroll {
+    0%   {
+        -moz-transform: translate(0,0);
+    }
+    
+    100% {
+        -webkit-transform: translate(-100%,0);
+    }
+}
+@keyframes scroll {
+    0%   {
+        transform: translate(0,0);
+    }
+    
+    100% {
+        transform: translate(-100%,0)
+    }
+}
+.my_navebar{
+    background: #aaa187;
+    margin-top: 0px!important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+    
+}
+
+.mitc a{
+    font-size: 40px;
+    outline: none !important;
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+.menu{}
+.menu ul{}
+.menu li{
+    border-left: 2px solid #715b3d;
+/*    border-right: 1px solid #715b3d;*/
+  
+}
+.menu ul li a{
+    color: black!important;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 22px !important;
+    outline: none;
+}
+.a_online{
+    border-right: 2px solid #715b3d !important;
+}
+.menu li:hover{
+    background: #8c7455;
+}
+
+.menu li a:hover{
+    color: #666666!important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+/*    color: #262626;*/
+    text-decoration: none;
+    background-color: #8c7455 !important;
+}
+.dropdown-menu > li{
+     border-left: 0px !important;
+     border-radius: 5px;
+}
+/*.menu ul li a ul{}
+.menu ul li a ul li{
+   
+}
+.menu ul li a ul li a{
+   color: black!important;
+   font-weight: bolder;
+   font-size: 17px;
+   line-height: 22px !important;
+   outline: none;
+}
+.menu ul li a ul li:hover{
+     background: #8c7455 !important;
+}*/
+
+.slide_bar{
+    height: auto;
+    padding: 2px;
+   
+}
+.slide_img img{
+    height: auto !important;
+    width: 100% !important;
+}
+.my_panel a{
+    outline: none;
+    
+}
+.my_panel a:hover, .my_panel a:focus{
+    text-decoration: none;
+    outline: none !important;
+}
+.seminar{
+    height: 120px;
+    margin: 0px !important;
+}
+
+.seminar a:hover{
+    text-decoration: none;
+    outline: none !important;
+}                     
+.content h3 h4{
+    color: red !important;
+    font-weight: bolder;
+}
+.content p{
+    color: #000;
+}
+.content li{
+    list-style-type: none;
+    outline: none;
+}
+.content li span{
+    font-size: 20px;
+    color: #ff3333;
+}
+.content p span{
+    font-size: 20px;
+    color: #ff3333;
+}
+.content a{
+    font-weight: bold;
+}
+.content a:hover{
+    background: #715b3d;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+}
+.my_tab li{}
+.my_tab li a{
+    font-size: 18px;
+}
+.my_tab li a:hover{
+    background: #aaa187; 
+}
+.my_tab li a:focus{
+    outline: none;
+}
+.my_tab li:focus{
+    outline: none;
+}
+.image_course{
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #cccccc;
+    background: #8c7455;
+    
+}
+.image_course_div{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #cccccc;
+    padding: 5px 20.5px !important;
+    transition: .2s;
+    border: 3px solid #b5af96;
+    border-radius: 62px;
+/*    display: none;*/
+}
+/*.image_gallery:hover{
+ border-radius: 10px;
+ border: 6px solid #808080;
+}*/
+.image_course:hover .image_course_div{
+    
+    border: 10px double #ffffff;
+    background: #b5af96;
+}
+
+
+
+                               /*========BigFooter=====*/
+ .big_footer{
+        
+         color: black !important;
+         font-weight: bolder;
+ } 
+ .big_footer a{
+        
+         color: black !important;
+        
+ } 
+ .big_footer h4{
+        font-weight: bolder;
+         color: red !important;
+         
+ } 
+ .big_footer > ul > li> a:focus, .big_footer > ul > li > a:hover {
+/*    color: #262626;*/
+    text-decoration: none !important;
+    background-color: #8c7455 !important;
+}
+.button{
+    text-align: center;
+}
+.news{
+    background: #8c7455;
+}
+.footer{
+    background: #715b3d;
+    padding-top: 5px;
+    font-weight: bolder;
+    color: #333300;
+}
+.my_font{
+    font-size: 31px;
+}
+
+                         /*======= Media Query=====*/
+
+@media only screen and (min-width: 1153px) and (max-width: 1254px){
+.right_head p{
+    margin: 0 0 1px;
+}
+.right_head .phone_number{
+    font-size: 16px;
+}
+.right_head .my_news hr{
+    margin-top: 21px !important;
+    margin-bottom: 18px !important;
+}
+.right_head .my_news{
+    margin: 0;
+    padding: 0px;
+}
+.right_head .my_news h4{
+    margin: 0px !important;
+}
+}
+@media only screen and (min-width: 946px) and (max-width: 1152px){
+.right_head p{
+    margin: 0 0 1px;
+}
+.right_head .phone_number{
+    font-size: 13px;
+}
+.right_head .my_news hr{
+    margin-top: 14px !important;
+    margin-bottom: 10px !important;
+}
+.right_head .my_news{
+    margin: 0;
+    padding: 0px;
+}
+.right_head .my_news h4{
+    margin: 0px !important;
+    font-size: 15px;
+}
+.mitc a{
+    font-size: 35px;
+}
+.menu ul li a{
+    padding: 14px 13px;
+}
+.my_form {
+    margin-top: 8px;
+    margin-bottom: 3px;
+} 
+.feedbak{
+    margin-bottom: 15px !important;
+}
+}
+@media only screen and (min-width: 885px) and (max-width: 946px){
+.right_head p{
+    margin: 0 0 1px;
+}
+.right_head .phone_number{
+    font-size: 12px;
+}
+.right_head .my_news hr{
+    margin-top: 12px !important;
+}
+.right_head .my_news{
+    margin: 0;
+    padding: 0px;
+}
+.right_head .my_news h4{
+    margin: 0px !important;
+    font-size: 14px;
+}
+.mitc a{
+    font-size: 30px;
+}
+.menu ul li a{
+    padding: 14px 10px;
+    font-size: 16px;
+}
+.my_form {
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+.my_form h4{
+    margin-top: -6px;
+    margin-bottom: 0px;
+} 
+.feedbak{
+    margin-bottom: 8px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 886px){
+.right_head p{
+   margin: -1px 0px -3px 3px !important;
+}
+.right_head .phone_number{
+    font-size: 10px;
+}
+.right_head .my_news hr{
+    margin-top: 6px !important;
+    margin-bottom: 3px !important;
+}
+.right_head .my_news{
+    margin: 0;
+    padding: 0px;
+}
+.right_head .my_news h4{
+    margin: 0px !important;
+    font-size: 14px;
+}
+.mitc a{
+    font-size: 30px;
+}
+.menu ul li a{
+    padding: 14px 9px;
+    font-size: 13px;
+}
+.slide_img{
+    height: 288px!important;
+}
+.well{
+    height: 451px!important;
+}
+}

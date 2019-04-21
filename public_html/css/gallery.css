@@ -1,0 +1,26 @@
+.image_gallery{
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #cccccc;
+    background: #8c7455;
+    
+}
+.image_footer{
+    position: absolute;
+    bottom: 0px;
+    left: -999px;
+    background: #cccccc;
+    padding: 5px 20.5px !important;
+    transition: 1s;
+/*    display: none;*/
+}
+.image_gallery:hover{
+ border-radius: 10px;
+ border: 6px solid #808080;
+}
+.image_gallery:hover .image_footer{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+  
+}
